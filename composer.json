@@ -4,6 +4,7 @@
     },
     "repositories": [
       {
+          "name": "princ/hello-world",
          "type": "vcs",
          "url": "https://github.com/princeapp/helloworld.git" 
       }
