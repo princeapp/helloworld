@@ -1,21 +1,11 @@
 {
-    "name": "princ/hello-world",
-    "description": "my first composer project",
-    "type": "project",
-    "authors": [
-        {
-            "name": "princeapp",
-            "email": "princekasaudhan78@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0",
-        "princ/hello-world":"dev-master@dev"
+      "prince/hello-world":"dev-master@dev"
     },
-    "autoload": {
-        "psr-0": {
-            "HelloWorld": "src/"
-        }
-    }
-}
+    "repositories": [
+      {
+         "type": "vcs",
+         "url": "https://github.com/princeapp/helloworld.git" 
+      }
+    ]
+  }
